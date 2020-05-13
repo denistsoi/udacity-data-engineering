@@ -44,8 +44,8 @@ artist_table_create = ("""
     artist_id text, 
     name text, 
     location text, 
-    latitude int, 
-    longitude int)
+    latitude float8, 
+    longitude float8)
 """)
 
 time_table_create = ("""
